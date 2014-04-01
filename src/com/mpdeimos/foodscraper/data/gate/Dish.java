@@ -12,7 +12,7 @@ import com.mpdeimos.webscraper.conversion.NumberFormatConverter;
 public class Dish implements IDish
 {
 	/** @see #getName() */
-	@Scrape(value = "td:nth-child(2)")
+	@Scrape(value = "td:nth-child(2)", regex = "Gericht \\d (.*)")
 	public String name;
 
 	/** @see #getPrice() */

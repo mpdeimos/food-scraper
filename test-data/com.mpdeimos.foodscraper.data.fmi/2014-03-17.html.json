@@ -1,0 +1,182 @@
+{
+  "menus": [
+    {
+      "date": "Mar 17, 2014 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Grillwürst´l 3,4 mit Barbecuesauce und Wedges oder B.n.W.",
+          "price": 2.95
+        },
+        {
+          "name": "R+S Hackbraten auf Jägerart mit Schwammerlsauce, dazu Nudeln oder B.n.W.",
+          "price": 3.95
+        },
+        {
+          "name": "Crossover-Küche: V „Vegetable Baked Potato Indian Style” mit Blumenkohl, Zucchini, Tomaten, exotischen Gewürzen und Käse überbacken, dazu Kräuter-Dip",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "date": "Mar 18, 2014 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "V Gemüseeintopf „Nizza“ mit grünen Bohnen, Zucchini, Paprika, Kartoffeln und Kräutern der Provence, auf Wunsch mit Paprikawürstchen 3,4",
+          "price": 2.95
+        },
+        {
+          "name": "S Burgenländer Schnitzel mit Senf, Speck 4 und Zwiebeln, dazu Wedges oder B.n.W.",
+          "price": 3.95
+        },
+        {
+          "name": "Indische Küche: „Chicken Jhalfrezi“ (mittelscharf) mit Tomaten, Paprika und Currysauce, dazu Basmatireis oder B.n.W.",
+          "price": 6.5
+        }
+      ]
+    },
+    {
+      "date": "Mar 19, 2014 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "V Asiatische Curry-Reispfannne mit Gemüse und Joghurt-Dip",
+          "price": 2.95
+        },
+        {
+          "name": "Wiener Backhend´l mit Kartoffelsalat oder B.n.W.",
+          "price": 3.95
+        },
+        {
+          "name": "Penne „Diabolo“ mit Paprikawurst 3,4, Peperoni, Zucchini, Chili und Mais, dazu frisch geriebener Grana 1,5, V auch veget.mögl.",
+          "price": 4.4
+        }
+      ]
+    },
+    {
+      "date": "Mar 20, 2014 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "V Spinat-Käsetaler mit Tomaten-Sahne und Wedges oder B.n.W.",
+          "price": 3.95
+        },
+        {
+          "name": "Böhmische Küche: S Nackenbraten mit Böhmischem Weißkraut und Serviettenknödel oder B.n.W.",
+          "price": 5.9
+        },
+        {
+          "name": "Thaiküche: Schweinefleisch süß-sauer mit Ananas, Paprika und Tomaten, dazu Reis oder B.n.W.",
+          "price": 6.5
+        }
+      ]
+    },
+    {
+      "date": "Mar 21, 2014 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Fischfilet „alla Pizzaiola“ mit Tomaten, Kapern und Basilikum,** oder Fischfilet gebacken mit Remouladensauce 1,2,5, dazu Reis oder B.n.W.",
+          "price": 3.95
+        },
+        {
+          "name": "Indische Küche: V „Palak Paneer“, vegetarisches Gericht mit hausgemachtem indischen Käse, Rahmspinat und Basmatireis",
+          "price": 4.9
+        },
+        {
+          "name": "R „Pariser Steak“ , dazu Cafe-de-Paris-Buttersauce mit Cognac und Curry oder Kräuterbutter, Grilltomate und Wedges oder B.n.W.",
+          "price": 7.6
+        }
+      ]
+    },
+    {
+      "date": "Mar 22, 2014 12:00:00 AM",
+      "dishes": []
+    },
+    {
+      "date": "Mar 23, 2014 12:00:00 AM",
+      "dishes": []
+    },
+    {
+      "date": "Mar 24, 2014 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Schweineschnitzel gebacken mit Wedges oder B.n.W.",
+          "price": 3.95
+        },
+        {
+          "name": "V Italienische Pasta mit Tomaten, Frischkäse und Rucola",
+          "price": 4.3
+        },
+        {
+          "name": "Indische Küche: „Chicken Kashmiri“ (scharf), Hühnerfleisch mit Tomaten, Zwiebeln, Kashmirigewürzen und Basmatireis oder B.n.W.",
+          "price": 6.5
+        }
+      ]
+    },
+    {
+      "date": "Mar 25, 2014 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "V Schweizer Käserösti mit Sauerrahm-Dip und Salat",
+          "price": 2.95
+        },
+        {
+          "name": "Italienische Küche: “Pollo alla diavolo“, Huhn auf Teufelsart mit Cayennepfeffer und Rosmarin, dazu Reis oder B.n.W.",
+          "price": 3.95
+        },
+        {
+          "name": "Gebratene Thainudeln mit Gemüse, gerösteten Erdnüssen, Schweinefleisch und Koriander, dazu Honig-Chili-Dip",
+          "price": 6.5
+        }
+      ]
+    },
+    {
+      "date": "Mar 26, 2014 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Südtiroler Schweinebraten, mit Tomaten, Wurzelgemüse, Rosmarin und Thymian geschmort, ** dazu Schupfnudeln oder B.n.W.",
+          "price": 3.95
+        },
+        {
+          "name": "Crossover-Küche: V Indische Pasta mit Gemüse, Spinat und Curry (leicht scharf)",
+          "price": 4.5
+        },
+        {
+          "name": "Putensteak vom Grill mit Zitronenbutter, Frühlingsgemüse und Wedges oder B.n.W.",
+          "price": 6.2
+        }
+      ]
+    },
+    {
+      "date": "Mar 27, 2014 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Schwedische Küche: R+S „Köttbullar (Hackbällchen) mit Rahmsauce, Preiselbeeren und Petersilienkartoffeln oder B.n.W.",
+          "price": 3.95
+        },
+        {
+          "name": "Indische Küche: V „Vegetable Biryani“, Reisgericht mit Gemüse, Linsen, frischem Ingwer, Kreuzkümmel und Kurkuma",
+          "price": 4.9
+        },
+        {
+          "name": "“Försterpfanderl“, Schweinefilet mit Rahmschwammerl und Käse überbacken, dazu Spätzle oder B.n.W.",
+          "price": 6.5
+        }
+      ]
+    },
+    {
+      "date": "Mar 28, 2014 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "V Frühlingseintopf mit Reis und Kräutern, auf Wunsch mit Fleischwurst 4",
+          "price": 2.95
+        },
+        {
+          "name": "Seelachsfilet auf asiatische Art mit Lauch, Gemüse , Tomaten und Curry oder Seelachsfilet gebacken mit Joghurt-Kräuter-Dip 1,2,5 , dazu Reis oder B.n.W.",
+          "price": 3.95
+        },
+        {
+          "name": "S Pfannengyros mit Tzatziki***, griechischer Salatgarnitur und Wedges oder B.n.W.",
+          "price": 6.2
+        }
+      ]
+    }
+  ]
+}
