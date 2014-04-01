@@ -4,15 +4,15 @@
       "date": "Mar 31, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Rigatoni mit Paprika-Tomaten-Pesto (v) vegan",
+          "name": "Rigatoni mit Paprika-Tomaten-Pesto (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Thailändische Frühlingsrolle mit Sweet Chilisauce (f) (2) fleischlos",
+          "name": "Thailändische Frühlingsrolle mit Sweet Chilisauce (f) (2)",
           "price": "TAGESGERICHT_2"
         },
         {
-          "name": "Schwedisches Hähnchenragout (Fliegender Jakob) (S) (2) mit Fleisch",
+          "name": "Schwedisches Hähnchenragout (Fliegender Jakob) (S) (2)",
           "price": "AKTIONSESSEN_5"
         }
       ]
@@ -21,19 +21,19 @@
       "date": "Apr 1, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Reistopf \"mexikanisch\" mit Bohnen, Paprika und Mais (v) vegan",
+          "name": "Reistopf \"mexikanisch\" mit Bohnen, Paprika und Mais (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Thailändische Frühlingsrolle mit Sweet Chilisauce (f) (2) fleischlos",
+          "name": "Thailändische Frühlingsrolle mit Sweet Chilisauce (f) (2)",
           "price": "TAGESGERICHT_2"
         },
         {
-          "name": "Cordon bleu vom Schwein (mit Formfleischhinterschinken) (S) (2) mit Fleisch",
+          "name": "Cordon bleu vom Schwein (mit Formfleischhinterschinken) (S) (2)",
           "price": "TAGESGERICHT_4"
         },
         {
-          "name": "Rindfleischstreifen (GQB) \"Spicy Ginger\" mit Bambussprossen (2) mit Fleisch",
+          "name": "Rindfleischstreifen (GQB) \"Spicy Ginger\" mit Bambussprossen (2)",
           "price": "AKTIONSESSEN_5"
         }
       ]
@@ -42,15 +42,15 @@
       "date": "Apr 2, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Polenta mit Pilzen und Zwiebeln (v) vegan",
+          "name": "Polenta mit Pilzen und Zwiebeln (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Nudel-Gemüse-Auflauf (f) (1) fleischlos",
+          "name": "Nudel-Gemüse-Auflauf (f) (1)",
           "price": "TAGESGERICHT_3"
         },
         {
-          "name": "Putengulasch mit Fleisch",
+          "name": "Putengulasch",
           "price": "TAGESGERICHT_4"
         }
       ]
@@ -59,15 +59,15 @@
       "date": "Apr 3, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Kartoffelcurry (v) vegan",
+          "name": "Kartoffelcurry (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Gnocchi mit Schafskäse und frischem Basilikum (f) fleischlos",
+          "name": "Gnocchi mit Schafskäse und frischem Basilikum (f)",
           "price": "TAGESGERICHT_3"
         },
         {
-          "name": "Schweinebraten mit Biersauce (S) mit Fleisch",
+          "name": "Schweinebraten mit Biersauce (S)",
           "price": "TAGESGERICHT_4"
         }
       ]
@@ -76,15 +76,15 @@
       "date": "Apr 4, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Grüner Erbseneintopf (v) vegan",
+          "name": "Grüner Erbseneintopf (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Pfannkuchen mit Apfelmus (f) (3) fleischlos",
+          "name": "Pfannkuchen mit Apfelmus (f) (3)",
           "price": "TAGESGERICHT_2"
         },
         {
-          "name": "Seelachsfilet (MSC) Müllerin, Zitronensauce (1) mit Fleisch",
+          "name": "Seelachsfilet (MSC) Müllerin, Zitronensauce (1)",
           "price": "TAGESGERICHT_4"
         }
       ]
@@ -93,19 +93,19 @@
       "date": "Apr 7, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Asiatisches Gemüse mit Chinakohl (v) vegan",
+          "name": "Asiatisches Gemüse mit Chinakohl (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Currywurst (R,S) mit Honig-Ingwer-Ketchup (11) mit Fleisch",
+          "name": "Currywurst (R,S) mit Honig-Ingwer-Ketchup (11)",
           "price": "TAGESGERICHT_2"
         },
         {
-          "name": "Paniertes Truthahnschnitzel mit Fleisch",
+          "name": "Paniertes Truthahnschnitzel",
           "price": "TAGESGERICHT_4"
         },
         {
-          "name": "Schnitzel (S) \"Schweizer Art\" mit Pommes mit Fleisch",
+          "name": "Schnitzel (S) \"Schweizer Art\" mit Pommes",
           "price": "UNKNOWN"
         }
       ]
@@ -114,19 +114,19 @@
       "date": "Apr 8, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Arabischer Couscous mit Karotten und Kichererbsen (v) vegan",
+          "name": "Arabischer Couscous mit Karotten und Kichererbsen (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Gebratene Hähnchenkeule mit Barbecuesauce (10) mit Fleisch",
+          "name": "Gebratene Hähnchenkeule mit Barbecuesauce (10)",
           "price": "TAGESGERICHT_2"
         },
         {
-          "name": "Allgäuer Käsespätzle mit Röstzwiebeln (f) (1,3) fleischlos",
+          "name": "Allgäuer Käsespätzle mit Röstzwiebeln (f) (1,3)",
           "price": "TAGESGERICHT_4"
         },
         {
-          "name": "Sweet \u0026 Sour mit Schweinefleisch (S) und Reis (11) mit Fleisch",
+          "name": "Sweet \u0026 Sour mit Schweinefleisch (S) und Reis (11)",
           "price": "UNKNOWN"
         }
       ]
@@ -135,19 +135,19 @@
       "date": "Apr 9, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce (v) vegan",
+          "name": "Grüne Bohnen mit Basmatireis in Kokos-Zitronensauce (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Cevapcici von der Pute mit Ajvar mit Fleisch",
+          "name": "Cevapcici von der Pute mit Ajvar",
           "price": "TAGESGERICHT_3"
         },
         {
-          "name": "Schweinefleisch koreanische Art mit Basmatireis (S) mit Fleisch",
+          "name": "Schweinefleisch koreanische Art mit Basmatireis (S)",
           "price": "AKTIONSESSEN_4"
         },
         {
-          "name": "Münchner Biergulasch (R, GQB) mit Knöpfle (3) mit Fleisch",
+          "name": "Münchner Biergulasch (R, GQB) mit Knöpfle (3)",
           "price": "UNKNOWN"
         }
       ]
@@ -156,19 +156,19 @@
       "date": "Apr 10, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Kartoffelrösti mit Sauerrahmdip (f) fleischlos",
+          "name": "Kartoffelrösti mit Sauerrahmdip (f)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Boeuf à la mode aus dem Rinderbug (R, GQB) (99) mit Fleisch",
+          "name": "Boeuf à la mode aus dem Rinderbug (R, GQB) (99)",
           "price": "AKTIONSESSEN_5"
         },
         {
-          "name": "Pfannengyros vom Schwein (S) mit Tsatsiki und Pommes mit Fleisch",
+          "name": "Pfannengyros vom Schwein (S) mit Tsatsiki und Pommes",
           "price": "UNKNOWN"
         },
         {
-          "name": "Bio-Tortelloni \"all \u0027arrabbiata\" (f) fleischlos",
+          "name": "Bio-Tortelloni \"all \u0027arrabbiata\" (f)",
           "price": "BIOGERICHT_2"
         }
       ]
@@ -177,15 +177,15 @@
       "date": "Apr 11, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Spaghetti mit Tomatenrahmsauce (f) fleischlos",
+          "name": "Spaghetti mit Tomatenrahmsauce (f)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Apfelstrudel mit Vanillesauce (f) fleischlos",
+          "name": "Apfelstrudel mit Vanillesauce (f)",
           "price": "TAGESGERICHT_3"
         },
         {
-          "name": "Gebackenes Seelachsfilet (MSC) mit Sauce Remoulade (1) mit Fleisch",
+          "name": "Gebackenes Seelachsfilet (MSC) mit Sauce Remoulade (1)",
           "price": "TAGESGERICHT_4"
         }
       ]
@@ -194,19 +194,19 @@
       "date": "Apr 14, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Kartoffelgulasch mit Paprika (v) vegan",
+          "name": "Kartoffelgulasch mit Paprika (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Wiener Schnitzel vom Schwein (S) mit Fleisch",
+          "name": "Wiener Schnitzel vom Schwein (S)",
           "price": "TAGESGERICHT_3"
         },
         {
-          "name": "Rotes Curry vom Rind (R, GQB) mit Wokgemüse und Reis mit Fleisch",
+          "name": "Rotes Curry vom Rind (R, GQB) mit Wokgemüse und Reis",
           "price": "UNKNOWN"
         },
         {
-          "name": "Bio-Penne mit Bio-Tomaten-Frischkäse-Sauce (f) fleischlos",
+          "name": "Bio-Penne mit Bio-Tomaten-Frischkäse-Sauce (f)",
           "price": "BIOGERICHT_2"
         }
       ]
@@ -215,19 +215,19 @@
       "date": "Apr 15, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Curcumareis mit asiatischem Gemüse (v) vegan",
+          "name": "Curcumareis mit asiatischem Gemüse (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Gnocchi mit Tomaten und Hühnerbrust mit Fleisch",
+          "name": "Gnocchi mit Tomaten und Hühnerbrust",
           "price": "TAGESGERICHT_3"
         },
         {
-          "name": "Gedünstetes Seelachsfilet (MSC) mit Gemüse und Weißweinsauce mit Fleisch",
+          "name": "Gedünstetes Seelachsfilet (MSC) mit Gemüse und Weißweinsauce",
           "price": "AKTIONSESSEN_4"
         },
         {
-          "name": "Ofenfrischer Leberkäse (R,S) mit Kartoffelsalat (f) (2,3,8) fleischlos",
+          "name": "Ofenfrischer Leberkäse (R,S) mit Kartoffelsalat (f) (2,3,8)",
           "price": "UNKNOWN"
         }
       ]
@@ -236,19 +236,19 @@
       "date": "Apr 16, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Bulgur \"orientalisch\" mit Kichererbsen und Spinat (v) vegan",
+          "name": "Bulgur \"orientalisch\" mit Kichererbsen und Spinat (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Schupfnudelpfanne mit frischem Gemüse (f) (3) fleischlos",
+          "name": "Schupfnudelpfanne mit frischem Gemüse (f) (3)",
           "price": "TAGESGERICHT_3"
         },
         {
-          "name": "Geschmorte Schulter vom Rind (R, GQB) mit Rotweinsauce (99) mit Fleisch",
+          "name": "Geschmorte Schulter vom Rind (R, GQB) mit Rotweinsauce (99)",
           "price": "AKTIONSESSEN_5"
         },
         {
-          "name": "Kasseler auf Sauerkraut (S) mit Salzkartoffeln mit Fleisch",
+          "name": "Kasseler auf Sauerkraut (S) mit Salzkartoffeln",
           "price": "UNKNOWN"
         }
       ]
@@ -257,19 +257,19 @@
       "date": "Apr 17, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Polentaschnitte mit Käsesauce (f) fleischlos",
+          "name": "Polentaschnitte mit Käsesauce (f)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Rahmspinat mit Rührei (f) fleischlos",
+          "name": "Rahmspinat mit Rührei (f)",
           "price": "TAGESGERICHT_3"
         },
         {
-          "name": "Rahmgeschnetzeltes von der Pute (99) mit Fleisch",
+          "name": "Rahmgeschnetzeltes von der Pute (99)",
           "price": "TAGESGERICHT_4"
         },
         {
-          "name": "Döner mit Putenfleisch, Tomaten, Salat, Zwiebeln, Joghurt mit Fleisch",
+          "name": "Döner mit Putenfleisch, Tomaten, Salat, Zwiebeln, Joghurt",
           "price": "UNKNOWN"
         }
       ]
@@ -278,19 +278,19 @@
       "date": "Apr 22, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Italienische Bohnensuppe (v) vegan",
+          "name": "Italienische Bohnensuppe (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Fleischpflanzerl mit Rahmsauce (R,S) mit Fleisch",
+          "name": "Fleischpflanzerl mit Rahmsauce (R,S)",
           "price": "TAGESGERICHT_2"
         },
         {
-          "name": "Gebratene Hähnchenbrust auf Chinagemüse mit Fleisch",
+          "name": "Gebratene Hähnchenbrust auf Chinagemüse",
           "price": "TAGESGERICHT_4"
         },
         {
-          "name": "Jägerschnitzel (S) mit Waldpilzen und Pommes (2) mit Fleisch",
+          "name": "Jägerschnitzel (S) mit Waldpilzen und Pommes (2)",
           "price": "UNKNOWN"
         }
       ]
@@ -299,19 +299,19 @@
       "date": "Apr 23, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Rahmchampignons (f) fleischlos",
+          "name": "Rahmchampignons (f)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Kartoffelauflauf mit (Vorder-) Schinken (S) und Kräuterdip (1,2,3,8,99) mit Fleisch",
+          "name": "Kartoffelauflauf mit (Vorder-) Schinken (S) und Kräuterdip (1,2,3,8,99)",
           "price": "TAGESGERICHT_4"
         },
         {
-          "name": "Pizza Slide mit Oliven (f), Schinken (S) o. Salami (S) fleischlos",
+          "name": "Pizza Slide mit Oliven (f), Schinken (S) o. Salami (S)",
           "price": "UNKNOWN"
         },
         {
-          "name": "Bio-Linsen mit Bio-Spätzle (f) fleischlos",
+          "name": "Bio-Linsen mit Bio-Spätzle (f)",
           "price": "BIOGERICHT_1"
         }
       ]
@@ -320,19 +320,19 @@
       "date": "Apr 24, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Frisches Gemüse aus der Pfanne mit Reis (v) (2) vegan",
+          "name": "Frisches Gemüse aus der Pfanne mit Reis (v) (2)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Rigatoni Carbonara (S) (2) mit Fleisch",
+          "name": "Rigatoni Carbonara (S) (2)",
           "price": "TAGESGERICHT_2"
         },
         {
-          "name": "Grünes Hähnchen-Curry mit Fleisch",
+          "name": "Grünes Hähnchen-Curry",
           "price": "AKTIONSESSEN_6"
         },
         {
-          "name": "Chicken Crossies mit Pommes frites mit Fleisch",
+          "name": "Chicken Crossies mit Pommes frites",
           "price": "UNKNOWN"
         }
       ]
@@ -341,15 +341,15 @@
       "date": "Apr 25, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Penne in Tomaten-Oliven-Sauce (v) (3) vegan",
+          "name": "Penne in Tomaten-Oliven-Sauce (v) (3)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Kaiserschmarrn mit Apfelmus (f) (3) fleischlos",
+          "name": "Kaiserschmarrn mit Apfelmus (f) (3)",
           "price": "TAGESGERICHT_4"
         },
         {
-          "name": "Gebackene Tintenfischringe mit Knoblauchdip (1) mit Fleisch",
+          "name": "Gebackene Tintenfischringe mit Knoblauchdip (1)",
           "price": "AKTIONSESSEN_4"
         }
       ]
@@ -358,19 +358,19 @@
       "date": "Apr 28, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Würfelkartoffeln mit Karotten, Sonnenblumenkern und Sesam (v mit Fleisch",
+          "name": "Würfelkartoffeln mit Karotten, Sonnenblumenkern und Sesam (v",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Tortellini (Käsefüllung) mit Tomatensauce (f) fleischlos",
+          "name": "Tortellini (Käsefüllung) mit Tomatensauce (f)",
           "price": "TAGESGERICHT_2"
         },
         {
-          "name": "Schweinerückensteak mit grünem Pfeffer (S) mit Fleisch",
+          "name": "Schweinerückensteak mit grünem Pfeffer (S)",
           "price": "TAGESGERICHT_4"
         },
         {
-          "name": "Jambalaya \"Louisiana\" mit Shrimps und Hähnchenbrustfilet (1,8) mit Fleisch",
+          "name": "Jambalaya \"Louisiana\" mit Shrimps und Hähnchenbrustfilet (1,8)",
           "price": "UNKNOWN"
         }
       ]
@@ -379,19 +379,19 @@
       "date": "Apr 29, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Penne \"Rustica\" (scharf) (v) vegan",
+          "name": "Penne \"Rustica\" (scharf) (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Chili con carne \"Mexico\" mit roten Bohnen (R) mit Fleisch",
+          "name": "Chili con carne \"Mexico\" mit roten Bohnen (R)",
           "price": "TAGESGERICHT_3"
         },
         {
-          "name": "Millirahmstrudel mit Äpfeln, Vanillesauce (f) fleischlos",
+          "name": "Millirahmstrudel mit Äpfeln, Vanillesauce (f)",
           "price": "AKTIONSESSEN_6"
         },
         {
-          "name": "Paniertes Truthahnsteack mit Speck-Zwiebel-Sauce (S) mit Fleisch",
+          "name": "Paniertes Truthahnsteack mit Speck-Zwiebel-Sauce (S)",
           "price": "UNKNOWN"
         }
       ]
@@ -400,19 +400,19 @@
       "date": "Apr 30, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Couscous mit mediterranem Gemüse (v) vegan",
+          "name": "Couscous mit mediterranem Gemüse (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Blätterteigtasche mit Spinat und Hirtenkäse (f) (1) fleischlos",
+          "name": "Blätterteigtasche mit Spinat und Hirtenkäse (f) (1)",
           "price": "TAGESGERICHT_4"
         },
         {
-          "name": "Halbes Brathendl mit Fleisch",
+          "name": "Halbes Brathendl",
           "price": "AKTIONSESSEN_5"
         },
         {
-          "name": "Münchner Tellerfleisch (R, GQB) mit Meerrettichsauce und Petersilienkartoffeln mit Fleisch",
+          "name": "Münchner Tellerfleisch (R, GQB) mit Meerrettichsauce und Petersilienkartoffeln",
           "price": "UNKNOWN"
         }
       ]
@@ -421,15 +421,15 @@
       "date": "May 2, 2014 12:00:00 AM",
       "dishes": [
         {
-          "name": "Grüner Erbseneintopf (v) vegan",
+          "name": "Grüner Erbseneintopf (v)",
           "price": "TAGESGERICHT_1"
         },
         {
-          "name": "Germknödel gefüllt mit Pflaumenmus und Vanillesauce (f) fleischlos",
+          "name": "Germknödel gefüllt mit Pflaumenmus und Vanillesauce (f)",
           "price": "TAGESGERICHT_3"
         },
         {
-          "name": "Gebackenes Seelachsfilet (MSC) mit Sauce Remoulade (1) mit Fleisch",
+          "name": "Gebackenes Seelachsfilet (MSC) mit Sauce Remoulade (1)",
           "price": "TAGESGERICHT_4"
         }
       ]

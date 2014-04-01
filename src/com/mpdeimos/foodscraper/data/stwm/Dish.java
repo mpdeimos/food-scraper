@@ -13,7 +13,7 @@ import com.mpdeimos.webscraper.conversion.DefaultConverter.ScrapedEnum;
 public class Dish implements IDish
 {
 	/** @see #getName() */
-	@Scrape("td.beschreibung")
+	@Scrape("td.beschreibung>span:first-child")
 	public String name;
 
 	/** @see #getPrice() */
