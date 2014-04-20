@@ -1,12 +1,14 @@
 package com.mpdeimos.foodscraper;
 
 import com.mpdeimos.foodscraper.data.IBistro;
+import com.mpdeimos.foodscraper.data.IDish;
 import com.mpdeimos.foodscraper.data.IMenu;
 import com.mpdeimos.webscraper.Scraper;
 import com.mpdeimos.webscraper.Scraper.Builder;
 import com.mpdeimos.webscraper.ScraperException;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
@@ -57,6 +59,24 @@ public class Retriever
 				{
 					today.put(bistro, menu);
 				}
+			}
+			if (!today.containsKey(bistro))
+			{
+				today.put(bistro, new IMenu()
+				{
+
+					@Override
+					public Iterable<IDish> getDishes()
+					{
+						return new ArrayList<IDish>(0);
+					}
+
+					@Override
+					public Date getDate()
+					{
+						return new Date(); // today
+					}
+				});
 			}
 		}
 

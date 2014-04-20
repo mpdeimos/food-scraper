@@ -3,9 +3,9 @@ package com.mpdeimos.foodscraper.data.fmi;
 import com.mpdeimos.foodscraper.data.IBistro;
 import com.mpdeimos.foodscraper.data.IMenu;
 import com.mpdeimos.webscraper.Scrape;
-import com.mpdeimos.webscraper.conversion.DeepScrapeConverter;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Defines the menus at the FMI Bistro
@@ -15,20 +15,20 @@ import java.util.Arrays;
 public class Bistro implements IBistro
 {
 	/** @see #getUrl() */
-	private static final String URL = "http://www.interface-ag.com/open/wp-content/uploads/2010/07/fmi.xml"; //$NON-NLS-1$
+	private static final String URL = "http://wwwrbgalt.in.tum.de/kontakt/FMI_Bistro/aktuell.html"; //$NON-NLS-1$
 
 	/** @see #getName() */
 	private static final String NAME = "FMI"; //$NON-NLS-1$
 
 	/** @see #getMenu() */
-	@Scrape(value = "mealPlan", converter = DeepScrapeConverter.class)
-	public Menu[] menus;
+	@Scrape(value = "td.maincontent", converter = FmiMenuConverter.class)
+	public List<Menu> menus;
 
 	/** {@inheritDoc} */
 	@Override
 	public Iterable<IMenu> getMenu()
 	{
-		return Arrays.asList((IMenu[]) this.menus);
+		return new ArrayList<IMenu>(this.menus);
 	}
 
 	/** {@inheritDoc} */

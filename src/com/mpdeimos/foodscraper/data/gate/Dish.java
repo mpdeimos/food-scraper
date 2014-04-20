@@ -16,9 +16,13 @@ public class Dish implements IDish
 	public String name;
 
 	/** @see #getPrice() */
-	@Scrape(value = "td:nth-child(3)", regex = ".*(\\d),(\\d\\d)",
-			replace = "$1.$2", converter = NumberFormatConverter.class)
-	public double price;
+	@Scrape(
+			value = "td:nth-child(3):matches(\\d,\\d\\d)",
+			lenient = true,
+			regex = ".*(\\d),(\\d\\d)",
+			replace = "$1.$2",
+			converter = NumberFormatConverter.class)
+	public double price = 0;
 
 	/** {@inheritDoc} */
 	@Override
