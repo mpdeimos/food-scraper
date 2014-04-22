@@ -3,6 +3,7 @@ package com.mpdeimos.foodscraper.data.fmi;
 import com.mpdeimos.foodscraper.data.IBistro;
 import com.mpdeimos.foodscraper.data.IMenu;
 import com.mpdeimos.webscraper.Scrape;
+import com.mpdeimos.webscraper.ScraperSource;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,5 +44,12 @@ public class Bistro implements IBistro
 	public String getName()
 	{
 		return NAME;
+	}
+
+	/** {@inheritDoc} */
+	@Override
+	public ScraperSource getSource()
+	{
+		return ScraperSource.fromUrl(URL);
 	}
 }

@@ -1,8 +1,8 @@
 package com.mpdeimos.foodscraper.data;
 
-import com.mpdeimos.foodscraper.data.IBistro;
 import com.mpdeimos.webscraper.Scraper;
 import com.mpdeimos.webscraper.ScraperException;
+import com.mpdeimos.webscraper.ScraperSource;
 
 import java.io.IOException;
 import java.nio.file.DirectoryStream;
@@ -10,8 +10,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -94,8 +92,8 @@ public abstract class BistroTestBase
 	{
 		IBistro bistro = createBistro();
 
-		Document doc = Jsoup.parse(readTestFile(file.getFileName().toString()));
-		new Scraper.Builder(doc, bistro).build().scrape();
+		ScraperSource source = ScraperSource.fromHtml(readTestFile(file.getFileName().toString()));
+		Scraper.builder().add(source, bistro).build().scrape();
 
 		return bistro;
 	}

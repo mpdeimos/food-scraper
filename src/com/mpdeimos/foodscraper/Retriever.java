@@ -4,10 +4,9 @@ import com.mpdeimos.foodscraper.data.IBistro;
 import com.mpdeimos.foodscraper.data.IDish;
 import com.mpdeimos.foodscraper.data.IMenu;
 import com.mpdeimos.webscraper.Scraper;
-import com.mpdeimos.webscraper.Scraper.Builder;
+import com.mpdeimos.webscraper.Scraper.ScraperBuilder;
 import com.mpdeimos.webscraper.ScraperException;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
@@ -15,9 +14,6 @@ import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
-
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 
 /**
  * Retrieves menus from all configured bistros.
@@ -91,21 +87,12 @@ public class Retriever
 			return;
 		}
 
+		ScraperBuilder builder = Scraper.builder();
 		for (IBistro bistro : this.bistros)
 		{
-			Document doc;
-			try
-			{
-				doc = Jsoup.connect(bistro.getUrl()).get();
-			}
-			catch (IOException e)
-			{
-				throw new ScraperException("Could not connect to " //$NON-NLS-1$
-						+ bistro.getUrl(), e);
-			}
-			Builder builder = new Scraper.Builder(doc, bistro);
-			builder.build().scrape();
+			builder.add(bistro);
 		}
+		builder.build().scrape();
 
 		this.retrieved = true;
 	}
