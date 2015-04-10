@@ -27,6 +27,7 @@ public class Retriever
 	{
 			new com.mpdeimos.foodscraper.data.gate.Bistro(),
 			new com.mpdeimos.foodscraper.data.stwm.Bistro(),
+			new com.mpdeimos.foodscraper.data.utum.Bistro(),
 			new com.mpdeimos.foodscraper.data.fmi.Bistro()
 	};
 
