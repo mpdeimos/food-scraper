@@ -1,0 +1,59 @@
+{
+  "menus": [
+    {
+      "date": "Apr 6, 2015 12:00:00 AM",
+      "firstDish": {
+        "name": "Ostermontag/ Bistro geschlossen",
+        "price": 0.0
+      },
+      "secondDish": {
+        "name": "",
+        "price": 0.0
+      }
+    },
+    {
+      "date": "Apr 7, 2015 12:00:00 AM",
+      "firstDish": {
+        "name": "Hühnchen-Satee´s auf Gemüsereis mit Erdnuss-Soße",
+        "price": 4.8
+      },
+      "secondDish": {
+        "name": "Spaghetti “Aurora” in Tomatensahne mit Spargel und Parmesan",
+        "price": 3.8
+      }
+    },
+    {
+      "date": "Apr 8, 2015 12:00:00 AM",
+      "firstDish": {
+        "name": "Schnitzel “Wiener Art” mit Kartoffelgurkensalat und Zitronenecke",
+        "price": 4.8
+      },
+      "secondDish": {
+        "name": "Canneloni gefüllt mit Ricotta mit Zucchini, Tomaten und Käse gratiniert",
+        "price": 3.8
+      }
+    },
+    {
+      "date": "Apr 9, 2015 12:00:00 AM",
+      "firstDish": {
+        "name": "Züricher Geschnetzeltes von der Pute mit Kartoffelrösti oder Eierspätzle",
+        "price": 4.8
+      },
+      "secondDish": {
+        "name": "Vegetarische Frühlingsrolle mit Kürbisreis in fruchtiger Currysoße",
+        "price": 3.8
+      }
+    },
+    {
+      "date": "Apr 10, 2015 12:00:00 AM",
+      "firstDish": {
+        "name": "Alaska Seelachsfile gebacken mit Petersilienkartoffeln und Sauce Remoulade",
+        "price": 4.8
+      },
+      "secondDish": {
+        "name": "Camembert aus dem Ofen mit Preiselbeeren und Frühlingssalaten",
+        "price": 3.8
+      }
+    }
+  ]
+}
