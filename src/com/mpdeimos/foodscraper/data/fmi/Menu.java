@@ -2,20 +2,12 @@ package com.mpdeimos.foodscraper.data.fmi;
 
 import com.mpdeimos.foodscraper.data.IDish;
 import com.mpdeimos.foodscraper.data.IMenu;
-import com.mpdeimos.webscraper.util.Assert;
+import com.mpdeimos.webscraper.Scrape;
+import com.mpdeimos.webscraper.conversion.DateFormatConverter;
+import com.mpdeimos.webscraper.conversion.DeepScrapeConverter;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import org.jsoup.nodes.Element;
 
 /**
  * A daily menu of the FMI Bistro.
@@ -24,48 +16,17 @@ import org.jsoup.nodes.Element;
  */
 public class Menu implements IMenu
 {
-	public static final Pattern DAY_SEPARATOR = Pattern.compile("\\w+,\\s*den\\s*(\\d+\\.\\d+.\\d+)");
-
 	/** @see #getDate() */
+	@Scrape(value = ":root", attribute = "date", regex = ".*,(.*)",
+			converter = DateFormatConverter.class)
+	@DateFormatConverter.Option(value = "dd.MM.yyyy")
 	public Date date;
 
 	/** @see #getDishes() */
-	public List<IDish> dishes = new ArrayList<>();
-
-	public Menu(Deque<Element> menuElements)
-	{
-		String dateText = menuElements.removeFirst().text();
-		Matcher matcher = DAY_SEPARATOR.matcher(dateText);
-		if (matcher.matches())
-		{
-			try
-			{
-				this.date = new SimpleDateFormat("dd.MM.yyyy", Locale.US).parse(matcher.group(1));
-			}
-			catch (ParseException e)
-			{
-				Assert.notCaught(e, "Date must be in valid format (pattern)");
-			}
-		}
-
-		Deque<String> dishElements = new LinkedList<>();
-		for (Element element : menuElements)
-		{
-			if (element.text().matches("^\\d\\.(.*)"))
-			{
-				if (!dishElements.isEmpty())
-				{
-					this.dishes.add(new Dish(dishElements));
-				}
-				dishElements.clear();
-			}
-			dishElements.add(element.text());
-		}
-		if (!dishElements.isEmpty())
-		{
-			this.dishes.add(new Dish(dishElements));
-		}
-	}
+	@Scrape(
+			value = "meal:not(:contains(Tagessuppe)):not(:has(price:matches(^$)))",
+			converter = DeepScrapeConverter.class)
+	public Dish[] dishes;
 
 	/** {@inheritDoc} */
 	@Override
@@ -78,7 +39,7 @@ public class Menu implements IMenu
 	@Override
 	public Iterable<IDish> getDishes()
 	{
-		return this.dishes;
+		return Arrays.asList((IDish[]) this.dishes);
 	}
 
 }

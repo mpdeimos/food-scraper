@@ -1,0 +1,27 @@
+{
+  "menus": [
+    {
+      "date": "Apr 13, 2015 12:00:00 AM",
+      "dishes": [
+        {
+          "title": "Rote-Linsensuppe mit Kardamon,",
+          "description": "dazu Papadams",
+          "price": 0.0,
+          "nextPrice": 4.8
+        },
+        {
+          "title": "Pasta in Tomatensugo",
+          "description": "mit Pinienkernen und Feta",
+          "price": 0.0,
+          "nextPrice": 6.9
+        },
+        {
+          "title": "Rindercurry* mit Kefirlimettenblättern",
+          "description": "und Koriander, dazu Reis",
+          "price": 0.0,
+          "nextPrice": 7.9
+        }
+      ]
+    }
+  ]
+}

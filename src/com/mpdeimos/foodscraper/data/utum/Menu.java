@@ -25,7 +25,7 @@ public class Menu implements IMenu
 
 	/** @see #getDishes() */
 	@Scrape(
-			value = ".menu-items .menu-item",
+			value = ".menu-items .menu-item:has(.menu-item-title:matches(\\w+))",
 			converter = DeepScrapeConverter.class)
 	public Dish[] dishes;
 

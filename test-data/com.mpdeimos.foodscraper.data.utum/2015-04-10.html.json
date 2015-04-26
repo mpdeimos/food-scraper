@@ -6,17 +6,20 @@
         {
           "title": "Rinderkraftbrühe mit Pfannkuchenstreifen",
           "description": "dazu Kräuterbutter + Brot",
-          "price": 4.8
+          "price": 4.8,
+          "nextPrice": 6.9
         },
         {
           "title": "Indisches Curry mit frischen Curryblättern in Kokossauce",
           "description": "dazu Basmatireis und Koriander (vegan)",
-          "price": 6.9
+          "price": 6.9,
+          "nextPrice": 7.9
         },
         {
           "title": "Penne in Lachs- Sahnesauce,",
           "description": "darüber Parmesan",
-          "price": 7.9
+          "price": 7.9,
+          "nextPrice": 7.9
         }
       ]
     }
