@@ -16,16 +16,21 @@ import java.util.Date;
  */
 public class Menu implements IMenu
 {
-	/** @see #getDate() */
+	/**
+	 * @see #getDate()
+	 */
 	@Scrape(
-			value = ".menu-section-title",
+			value = ".menu-section-title,.menu-item-title",
+			resultIndex = 0,
 			converter = DateFormatConverter.class)
 	@DateFormatConverter.Option(value = "dd.MM.yyyy")
 	public Date date;
 
-	/** @see #getDishes() */
+	/**
+	 * @see #getDishes()
+	 */
 	@Scrape(
-			value = ".menu-items .menu-item:has(.menu-item-title:matches(\\w+))",
+			value = ".menu-items .menu-item:has(.menu-item-title:matches(\\w+):not(:matches(\\*Pichler Bio-Fleisch)))",
 			converter = DeepScrapeConverter.class)
 	public Dish[] dishes;
 

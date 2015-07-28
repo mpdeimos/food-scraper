@@ -1,0 +1,27 @@
+{
+  "menus": [
+    {
+      "date": "Jul 9, 2015 12:00:00 AM",
+      "dishes": [
+        {
+          "title": "Gemischter Salat mit indischen Gemüsebällchen,",
+          "description": "Joghurt und Minze, dazu Mangochutney",
+          "price": 0.0,
+          "nextPrice": 5.9
+        },
+        {
+          "title": "Indisches Erbsencurry mit Paneerkäse,",
+          "description": "dazu Reis, Joghurt und Koriander",
+          "price": 0.0,
+          "nextPrice": 6.9
+        },
+        {
+          "title": "Pasta in Salsiccia*-Fenchelsauce,",
+          "description": "dazu Parmesan",
+          "price": 0.0,
+          "nextPrice": 7.9
+        }
+      ]
+    }
+  ]
+}

@@ -30,5 +30,5 @@
 	<dependency org="com.google.code.gson" name="gson" rev="2.2.4" />
 	<dependency org="org.jsoup" name="jsoup" rev="1.7.3" />
 	<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.3.1" />
-	<dependency org="junit" name="junit" rev="4.11" conf="test->default" />
+	<dependency org="junit" name="junit" rev="4.12" conf="test->default" />
 </ivy-module>

@@ -1,0 +1,27 @@
+{
+  "menus": [
+    {
+      "date": "Apr 29, 2015 12:00:00 AM",
+      "dishes": [
+        {
+          "title": "Birnen-Fenchelsuppe",
+          "description": "dazu Vollkornbrot und hausgemachte Kräuterbutter",
+          "price": 0.0,
+          "nextPrice": 4.8
+        },
+        {
+          "title": "Penne in Spinat-Zitronensauce mit Feta",
+          "description": "dazu Parmesan",
+          "price": 0.0,
+          "nextPrice": 6.9
+        },
+        {
+          "title": "Chicken Korma-",
+          "description": "Huhn in indischer Kardamomsauce, dazu Reis, Joghurt und Mangochutney",
+          "price": 0.0,
+          "nextPrice": 7.9
+        }
+      ]
+    }
+  ]
+}

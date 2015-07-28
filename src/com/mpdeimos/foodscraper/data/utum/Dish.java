@@ -13,6 +13,12 @@ import com.mpdeimos.webscraper.selection.RelativeElementSelector;
  */
 public class Dish implements IDish
 {
+	/** Regular expression for selecting the price. */
+	private static final String REGEX_PRICE = ".*(\\d),(\\d\\d)?.*?"; //$NON-NLS-1$
+
+	/** Regex replacement for the price. */
+	private static final String REGEX_PREPLACE_PRICE = "$1.$2"; //$NON-NLS-1$
+
 	/** The title of the dish. */
 	@Scrape(".menu-item-title")
 	public String title;
@@ -25,8 +31,8 @@ public class Dish implements IDish
 	@Scrape(
 			value = ".menu-item-price-bottom",
 			lenient = true,
-			regex = ".*(\\d),(\\d\\d)",
-			replace = "$1.$2",
+			regex = REGEX_PRICE,
+			replace = REGEX_PREPLACE_PRICE,
 			converter = NumberFormatConverter.class)
 	public double price = 0;
 
@@ -37,8 +43,8 @@ public class Dish implements IDish
 	@Scrape(
 			value = ".menu-item-price-bottom",
 			lenient = true,
-			regex = ".*(\\d),(\\d\\d)",
-			replace = "$1.$2",
+			regex = REGEX_PRICE,
+			replace = REGEX_PREPLACE_PRICE,
 			root = RelativeElementSelector.class,
 			converter = NumberFormatConverter.class)
 	@RelativeElementSelector.Option(sibling = 1)

@@ -8,7 +8,6 @@ import com.mpdeimos.webscraper.Scraper.ScraperBuilder;
 import com.mpdeimos.webscraper.ScraperException;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.LinkedHashMap;
@@ -23,26 +22,24 @@ import java.util.Map.Entry;
 public class Retriever
 {
 	/** List of available bistros. */
-	private final IBistro[] bistros = new IBistro[]
-	{
-			new com.mpdeimos.foodscraper.data.gate.Bistro(),
-			new com.mpdeimos.foodscraper.data.stwm.Bistro(),
-			new com.mpdeimos.foodscraper.data.utum.Bistro(),
-			new com.mpdeimos.foodscraper.data.fmi.Bistro()
-	};
+	private final Iterable<IBistro> bistros = BistroRegistry.createBistros();
 
 	/** Indicates whether the bistro websites have been scraped. */
 	private boolean retrieved = false;
 
-	/** @return A list of bistros including their daily menus. */
+	/**
+	 * @return A list of bistros including their daily menus.
+	 */
 	public Iterable<IBistro> getBistros() throws ScraperException
 	{
 		this.retrieve();
 
-		return Arrays.asList(this.bistros);
+		return this.bistros;
 	}
 
-	/** @return A list of bistros including todays menus. */
+	/**
+	 * @return A list of bistros including todays menus.
+	 */
 	public Iterable<Entry<IBistro, IMenu>> getTodaysMenu()
 			throws ScraperException
 	{
@@ -98,13 +95,24 @@ public class Retriever
 		this.retrieved = true;
 	}
 
-	/** @return <code>true</code> if the passed date is today. */
+	/**
+	 * @return <code>true</code> if the passed date is today.
+	 */
 	private static boolean isToday(Date date)
 	{
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(date);
 		Calendar now = Calendar.getInstance();
 		return cal.get(Calendar.YEAR) == now.get(Calendar.YEAR)
-				&& cal.get(Calendar.DAY_OF_YEAR) == now.get(Calendar.DAY_OF_YEAR);
+				&& cal.get(Calendar.DAY_OF_YEAR) == now.get(
+						Calendar.DAY_OF_YEAR);
+	}
+
+	/**
+	 * Main program entry point.
+	 */
+	public static void main(String[] args) throws ScraperException
+	{
+		new Retriever().getTodaysMenu();
 	}
 }

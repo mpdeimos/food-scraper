@@ -1,0 +1,33 @@
+{
+  "menus": [
+    {
+      "date": "Apr 27, 2015 12:00:00 AM",
+      "dishes": [
+        {
+          "title": "Spargelcremesuppe mit Croutons,",
+          "description": "dazu Vollkornbrot und Kräuterbutter",
+          "price": 0.0,
+          "nextPrice": 4.8
+        },
+        {
+          "title": "Fenchel-Zucchini-Risotto,",
+          "description": "dazu Parmesan",
+          "price": 0.0,
+          "nextPrice": 6.9
+        },
+        {
+          "title": "Ungarisches Saftgulasch*,",
+          "description": "dazu Fleckerl-Nudeln und Sauerrahm",
+          "price": 0.0,
+          "nextPrice": 7.9
+        },
+        {
+          "title": "Hausgemachter Milchreis",
+          "description": "mit Zimt und Zucker",
+          "price": 0.0,
+          "nextPrice": 3.0
+        }
+      ]
+    }
+  ]
+}

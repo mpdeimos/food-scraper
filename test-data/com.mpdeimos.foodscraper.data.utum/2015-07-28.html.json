@@ -1,0 +1,33 @@
+{
+  "menus": [
+    {
+      "date": "Jul 28, 2015 12:00:00 AM",
+      "dishes": [
+        {
+          "title": "28. 07. 2015",
+          "description": "Achtung: heute schliesst der Herr Lichtenberg um 14.30 Uhr!!",
+          "price": 0.0,
+          "nextPrice": 0.0
+        },
+        {
+          "title": "Gemischter Salat mit Gemüse-Tortillas,",
+          "description": "dazu Brot und hausgemachte Kräuterbutter",
+          "price": 0.0,
+          "nextPrice": 5.9
+        },
+        {
+          "title": "Pasta mit Gorgonzola-Birnen-Walnusssauce,",
+          "description": "dazu Parmesan und frischer Basilikum",
+          "price": 0.0,
+          "nextPrice": 6.9
+        },
+        {
+          "title": "Indisches Fischcurry",
+          "description": "mit Basmatireis, Sauerrahm und frischem Koriander",
+          "price": 0.0,
+          "nextPrice": 7.9
+        }
+      ]
+    }
+  ]
+}
