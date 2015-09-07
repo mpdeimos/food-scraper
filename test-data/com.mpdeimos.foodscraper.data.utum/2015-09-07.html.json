@@ -1,0 +1,27 @@
+{
+  "menus": [
+    {
+      "date": "Sep 7, 2015 12:00:00 AM",
+      "dishes": [
+        {
+          "title": "-Tomatensuppe mit getrockneten Aprikosen und Croutons,",
+          "description": "dazu Brot und hausgemachte Kräuterbutter",
+          "price": 0.0,
+          "nextPrice": 4.8
+        },
+        {
+          "title": "-Zitronen-Auberginen-Risotto,",
+          "description": "dazu Parmesan,",
+          "price": 0.0,
+          "nextPrice": 6.9
+        },
+        {
+          "title": "Vietnamesischer Rinder*streifensalat",
+          "description": "mit Glasnudeln und Sojasprossen",
+          "price": 0.0,
+          "nextPrice": 7.9
+        }
+      ]
+    }
+  ]
+}

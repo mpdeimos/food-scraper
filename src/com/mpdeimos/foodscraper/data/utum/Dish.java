@@ -19,6 +19,11 @@ public class Dish implements IDish
 	/** Regex replacement for the price. */
 	private static final String REGEX_PREPLACE_PRICE = "$1.$2"; //$NON-NLS-1$
 
+	/** CSS selector for the price. */
+	private static final String SELECTOR_PRICE = ".menu-item-price-bottom:matches(" //$NON-NLS-1$
+			+ REGEX_PRICE + "),.menu-item-title:matches(" //$NON-NLS-1$
+			+ REGEX_PRICE + ")"; //$NON-NLS-1$
+
 	/** The title of the dish. */
 	@Scrape(".menu-item-title")
 	public String title;
@@ -27,9 +32,11 @@ public class Dish implements IDish
 	@Scrape(value = ".menu-item-description", lenient = true)
 	public String description;
 
-	/** @see #getPrice() */
+	/**
+	 * @see #getPrice()
+	 */
 	@Scrape(
-			value = ".menu-item-price-bottom",
+			value = SELECTOR_PRICE,
 			lenient = true,
 			regex = REGEX_PRICE,
 			replace = REGEX_PREPLACE_PRICE,
@@ -41,7 +48,7 @@ public class Dish implements IDish
 	 * try to parse the next one.
 	 */
 	@Scrape(
-			value = ".menu-item-price-bottom",
+			value = SELECTOR_PRICE,
 			lenient = true,
 			regex = REGEX_PRICE,
 			replace = REGEX_PREPLACE_PRICE,
