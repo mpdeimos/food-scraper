@@ -1,0 +1,59 @@
+{
+  "menus": [
+    {
+      "date": "Oct 26, 2015 12:00:00 AM",
+      "firstDish": {
+        "name": "Schweinenackensteak vom Grill mit Wedgeskartoffeln, grünen Bohnen, Röstzwiebeln und Bratensoße",
+        "price": 4.8
+      },
+      "secondDish": {
+        "name": "Rigatoni in Dreikäsesoße mit Gemüsestreifen und frischen Kräutern",
+        "price": 3.8
+      }
+    },
+    {
+      "date": "Oct 27, 2015 12:00:00 AM",
+      "firstDish": {
+        "name": "Rinder-Roulade mit Kartoffelpüree in feiner Senfsoße",
+        "price": 5.4
+      },
+      "secondDish": {
+        "name": "Tagliatelle mit Kürbis und Rapsblüten in Sahnesoße",
+        "price": 3.8
+      }
+    },
+    {
+      "date": "Oct 28, 2015 12:00:00 AM",
+      "firstDish": {
+        "name": "Cevapcici und Rasnici mit Djuvecreis, Ajavar und Zwiebelringerl",
+        "price": 4.8
+      },
+      "secondDish": {
+        "name": "Spaghetti “Napoli” in Tomatenbasilikumsoße mit gehobeltem Parmesan",
+        "price": 3.8
+      }
+    },
+    {
+      "date": "Oct 29, 2015 12:00:00 AM",
+      "firstDish": {
+        "name": "Donnerstag und Freitag ist das Bistro wegen Umbau geschlossen!!",
+        "price": 0.0
+      },
+      "secondDish": {
+        "name": "",
+        "price": 0.0
+      }
+    },
+    {
+      "date": "Oct 30, 2015 12:00:00 AM",
+      "firstDish": {
+        "name": "",
+        "price": 0.0
+      },
+      "secondDish": {
+        "name": "Wir sind im neuen Kostüm am 02.11.2015 wieder für Sie da.",
+        "price": 0.0
+      }
+    }
+  ]
+}

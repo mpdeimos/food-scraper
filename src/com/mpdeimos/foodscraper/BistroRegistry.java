@@ -14,8 +14,8 @@ public class BistroRegistry
 	private static final Iterable<Class<? extends IBistro>> BISTROS = Arrays.asList(
 			com.mpdeimos.foodscraper.data.gate.Bistro.class,
 			com.mpdeimos.foodscraper.data.utum.Bistro.class,
-			com.mpdeimos.foodscraper.data.stwm.Bistro.class,
-			com.mpdeimos.foodscraper.data.fmi.Bistro.class);
+			com.mpdeimos.foodscraper.data.stwm.Bistro.class
+	/* com.mpdeimos.foodscraper.data.fmi.Bistro.class */);
 
 	/**
 	 * @return The registered bistro types.

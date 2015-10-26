@@ -11,17 +11,21 @@ import com.mpdeimos.webscraper.conversion.NumberFormatConverter;
  */
 public class Dish implements IDish
 {
-	/** @see #getName() */
+	/**
+	 * @see #getName()
+	 */
 	@Scrape(
 			value = "td:nth-child(2)",
 			regex = "Gericht \\d (.*?)( Guten Appetit.*)?$")
 	public String name;
 
-	/** @see #getPrice() */
+	/**
+	 * @see #getPrice()
+	 */
 	@Scrape(
 			value = "td:nth-child(3):matches(\\d,\\d\\d)",
 			lenient = true,
-			regex = ".*(\\d),(\\d\\d)",
+			regex = ".*(\\d),(\\d\\d).*",
 			replace = "$1.$2",
 			converter = NumberFormatConverter.class)
 	public double price = 0;

@@ -15,14 +15,19 @@ import java.util.Arrays;
  */
 public class Bistro implements IBistro
 {
-	/** @see #getUrl() */
+	/**
+	 * @see #getUrl()
+	 */
 	public static final String URL = "http://www.gategarching.com/standort/bistro/wochenkarte/"; //$NON-NLS-1$
 
-	/** @see #getName() */
+	/**
+	 * @see #getName()
+	 */
 	public static String NAME = "Gate"; //$NON-NLS-1$
 
 	/** The available menus. */
-	@Scrape(value = "table>tbody>tr:has(td:first-child>strong)",
+	@Scrape(
+			value = "table>tbody>tr:has(td:first-child>strong):has(td:nth-child(2):not(:empty))",
 			converter = DeepScrapeConverter.class)
 	public Menu[] menus;
 
