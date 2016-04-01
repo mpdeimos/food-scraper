@@ -30,10 +30,8 @@ public class Retriever
 	/**
 	 * @return A list of bistros including their daily menus.
 	 */
-	public Iterable<IBistro> getBistros() throws ScraperException
+	public Iterable<IBistro> getBistros()
 	{
-		this.retrieve();
-
 		return this.bistros;
 	}
 
@@ -41,7 +39,6 @@ public class Retriever
 	 * @return A list of bistros including todays menus.
 	 */
 	public Iterable<Entry<IBistro, IMenu>> getTodaysMenu()
-			throws ScraperException
 	{
 		Map<IBistro, IMenu> today = new LinkedHashMap<>();
 
@@ -77,7 +74,10 @@ public class Retriever
 		return today.entrySet();
 	}
 
-	/** Retrieves the daily meals from the bistro websites. */
+	/**
+	 * Retrieves the daily meals from the bistro websites. If an exception
+	 * occurs, there might still some valid data be retrieved.
+	 */
 	public void retrieve() throws ScraperException
 	{
 		if (this.retrieved)
@@ -100,6 +100,11 @@ public class Retriever
 	 */
 	private static boolean isToday(Date date)
 	{
+		if (date == null)
+		{
+			return false;
+		}
+
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(date);
 		Calendar now = Calendar.getInstance();
@@ -111,8 +116,19 @@ public class Retriever
 	/**
 	 * Main program entry point.
 	 */
-	public static void main(String[] args) throws ScraperException
+	public static void main(String[] args)
 	{
-		new Retriever().getTodaysMenu();
+		Retriever retriever = new Retriever();
+		try
+		{
+			retriever.retrieve();
+		}
+		catch (ScraperException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Iterable<Entry<IBistro, IMenu>> todaysMenu = retriever.getTodaysMenu();
+		System.out.println(todaysMenu);
 	}
 }

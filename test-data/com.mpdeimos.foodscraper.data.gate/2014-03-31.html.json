@@ -1,7 +1,9 @@
 {
   "menus": [
     {
+      "dateWithoutYear": "Aug 3, 1971 12:00:00 AM",
       "date": "Mar 31, 2014 12:00:00 AM",
+      "year": 2014,
       "firstDish": {
         "name": "Schweinelendchen mit buntem Gemüse in Pfeffersoße mit Herzoginkartoffel",
         "price": 4.8
@@ -12,7 +14,9 @@
       }
     },
     {
+      "dateWithoutYear": "Aug 4, 1971 12:00:00 AM",
       "date": "Apr 1, 2014 12:00:00 AM",
+      "year": 2014,
       "firstDish": {
         "name": "Knusperschnitzel mit haus´gmachter BBQ-Soße und Wedgeskartoffeln",
         "price": 4.8
@@ -23,7 +27,9 @@
       }
     },
     {
+      "dateWithoutYear": "Aug 4, 1971 12:00:00 AM",
       "date": "Apr 2, 2014 12:00:00 AM",
+      "year": 2014,
       "firstDish": {
         "name": "Schweinefilet vom Grill auf grünen Nudeln in Waldpilzrahmsoße",
         "price": 4.8
@@ -34,7 +40,9 @@
       }
     },
     {
+      "dateWithoutYear": "Aug 4, 1971 12:00:00 AM",
       "date": "Apr 3, 2014 12:00:00 AM",
+      "year": 2014,
       "firstDish": {
         "name": "Wildschweinrollbraten mit Eierspätzle und Preiselbeerbirne",
         "price": 4.8
@@ -45,7 +53,9 @@
       }
     },
     {
+      "dateWithoutYear": "Aug 4, 1971 12:00:00 AM",
       "date": "Apr 4, 2014 12:00:00 AM",
+      "year": 2014,
       "firstDish": {
         "name": "Chili Con Carne mit Schmand und ofenfrischem Baguette",
         "price": 3.5

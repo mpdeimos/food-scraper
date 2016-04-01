@@ -1,7 +1,9 @@
 {
   "menus": [
     {
+      "dateWithoutYear": "Aug 10, 1971 12:00:00 AM",
       "date": "Oct 26, 2015 12:00:00 AM",
+      "year": 2015,
       "firstDish": {
         "name": "Schweinenackensteak vom Grill mit Wedgeskartoffeln, grünen Bohnen, Röstzwiebeln und Bratensoße",
         "price": 4.8
@@ -12,7 +14,9 @@
       }
     },
     {
+      "dateWithoutYear": "Aug 10, 1971 12:00:00 AM",
       "date": "Oct 27, 2015 12:00:00 AM",
+      "year": 2015,
       "firstDish": {
         "name": "Rinder-Roulade mit Kartoffelpüree in feiner Senfsoße",
         "price": 5.4
@@ -23,7 +27,9 @@
       }
     },
     {
+      "dateWithoutYear": "Aug 10, 1971 12:00:00 AM",
       "date": "Oct 28, 2015 12:00:00 AM",
+      "year": 2015,
       "firstDish": {
         "name": "Cevapcici und Rasnici mit Djuvecreis, Ajavar und Zwiebelringerl",
         "price": 4.8
@@ -34,7 +40,9 @@
       }
     },
     {
+      "dateWithoutYear": "Aug 10, 1971 12:00:00 AM",
       "date": "Oct 29, 2015 12:00:00 AM",
+      "year": 2015,
       "firstDish": {
         "name": "Donnerstag und Freitag ist das Bistro wegen Umbau geschlossen!!",
         "price": 0.0
@@ -45,7 +53,9 @@
       }
     },
     {
+      "dateWithoutYear": "Aug 10, 1971 12:00:00 AM",
       "date": "Oct 30, 2015 12:00:00 AM",
+      "year": 2015,
       "firstDish": {
         "name": "",
         "price": 0.0

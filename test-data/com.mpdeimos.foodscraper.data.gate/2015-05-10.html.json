@@ -1,7 +1,9 @@
 {
   "menus": [
     {
+      "dateWithoutYear": "Aug 4, 1971 12:00:00 AM",
       "date": "Apr 6, 2015 12:00:00 AM",
+      "year": 2015,
       "firstDish": {
         "name": "Ostermontag/ Bistro geschlossen",
         "price": 0.0
@@ -12,7 +14,9 @@
       }
     },
     {
+      "dateWithoutYear": "Aug 4, 1971 12:00:00 AM",
       "date": "Apr 7, 2015 12:00:00 AM",
+      "year": 2015,
       "firstDish": {
         "name": "Hühnchen-Satee´s auf Gemüsereis mit Erdnuss-Soße",
         "price": 4.8
@@ -23,7 +27,9 @@
       }
     },
     {
+      "dateWithoutYear": "Aug 4, 1971 12:00:00 AM",
       "date": "Apr 8, 2015 12:00:00 AM",
+      "year": 2015,
       "firstDish": {
         "name": "Schnitzel “Wiener Art” mit Kartoffelgurkensalat und Zitronenecke",
         "price": 4.8
@@ -34,7 +40,9 @@
       }
     },
     {
+      "dateWithoutYear": "Aug 4, 1971 12:00:00 AM",
       "date": "Apr 9, 2015 12:00:00 AM",
+      "year": 2015,
       "firstDish": {
         "name": "Züricher Geschnetzeltes von der Pute mit Kartoffelrösti oder Eierspätzle",
         "price": 4.8
@@ -45,7 +53,9 @@
       }
     },
     {
+      "dateWithoutYear": "Aug 4, 1971 12:00:00 AM",
       "date": "Apr 10, 2015 12:00:00 AM",
+      "year": 2015,
       "firstDish": {
         "name": "Alaska Seelachsfile gebacken mit Petersilienkartoffeln und Sauce Remoulade",
         "price": 4.8
