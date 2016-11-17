@@ -21,6 +21,8 @@ public class Menu implements IMenu
 	 */
 	@Scrape(
 			value = ".menu-section-title,.menu-item-title",
+			regex = "(?:.*,)?(.*)",
+			replace = "$1",
 			resultIndex = 0,
 			converter = DateFormatConverter.class)
 	@DateFormatConverter.Option(value = "dd.MM.yyyy")
@@ -30,7 +32,7 @@ public class Menu implements IMenu
 	 * @see #getDishes()
 	 */
 	@Scrape(
-			value = ".menu-items .menu-item:has(.menu-item-title:matches(.*\\p{IsAlphabetic}+.*):not(:matches(\\*Pichler Bio-Fleisch)))",
+			value = ".menu-items .menu-item:has(.menu-item-title:matches(.*\\p{IsAlphabetic}+.*):not(:matches(\\*Pichler\\s+Bio\\s*-\\s*Fleisch)))",
 			converter = DeepScrapeConverter.class)
 	public Dish[] dishes;
 
