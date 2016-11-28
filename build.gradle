@@ -11,3 +11,8 @@ dependencies {
 	testCompile 'junit:junit:4.12'
 	testCompile 'org.reflections:reflections:0.9.10'
 }
+
+// Ensure test resources are on classpath
+sourceSets.test {
+	output.resourcesDir = "build/classes/test"
+}

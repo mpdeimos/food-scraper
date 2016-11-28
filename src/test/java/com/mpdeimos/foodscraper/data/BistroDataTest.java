@@ -111,7 +111,7 @@ public class BistroDataTest
 			Class<? extends IBistro> bistro)
 	{
 		return new Reflections(
-				bistro,
+				bistro.getPackage().getName(),
 				new ResourcesScanner()).getResources(
 						HTML_FILE_PATTERN);
 	}
