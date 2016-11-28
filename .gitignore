@@ -1,6 +1,8 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+.gradle
+.classpath
+.project
+.settings/gradle.prefs
+.settings/org.eclipse.buildship.core.prefs
+bin/
+build/
+vendor/.*

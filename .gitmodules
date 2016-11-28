@@ -1,0 +1,3 @@
+[submodule "vendor/com.mpdeimos.webscraper"]
+	path = vendor/com.mpdeimos.webscraper
+	url = https://github.com/mpdeimos/web-scraper

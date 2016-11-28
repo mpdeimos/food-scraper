@@ -5,13 +5,15 @@ import com.mpdeimos.webscraper.Scraper;
 import com.mpdeimos.webscraper.ScraperException;
 import com.mpdeimos.webscraper.ScraperSource;
 
+import java.io.BufferedReader;
 import java.io.IOException;
-import java.nio.file.DirectoryStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -19,6 +21,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
+import org.reflections.Reflections;
+import org.reflections.scanners.ResourcesScanner;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -32,7 +36,8 @@ import com.google.gson.GsonBuilder;
 public class BistroDataTest
 {
 	/** Glob to match HTML files. */
-	private static final String HTML_FILE_GLOB = "*.html"; //$NON-NLS-1$
+	private static final Pattern HTML_FILE_PATTERN = Pattern.compile(
+			".*\\.html"); //$NON-NLS-1$
 
 	/** Gathers the test data. */
 	@Parameters(name = "{1}")
@@ -42,20 +47,15 @@ public class BistroDataTest
 
 		for (Class<? extends IBistro> bistro : BistroRegistry.getBistros())
 		{
-			try (DirectoryStream<Path> paths = Files.newDirectoryStream(
-					getTestDataDirectory(bistro),
-					HTML_FILE_GLOB))
+
+			Set<String> testFiles = getTestFiles(bistro);
+			Assert.assertTrue(
+					"No test-cases found for " + bistro.getName(), //$NON-NLS-1$
+					testFiles.size() > 0);
+			for (String testFile : testFiles)
 			{
-				for (Path path : paths)
-				{
-					data.add(new Object[] { BistroRegistry.create(bistro),
-							path });
-				}
-			}
-			catch (IOException e)
-			{
-				Assert.fail(
-						"Cannot read test data directory: " + e.getMessage()); //$NON-NLS-1$
+				data.add(new Object[] { BistroRegistry.create(bistro),
+						testFile });
 			}
 		}
 
@@ -68,7 +68,7 @@ public class BistroDataTest
 
 	/** The test file to scrape. */
 	@Parameter(1)
-	public Path testFile;
+	public String testFile;
 
 	/**
 	 * Asserts that the scraped data for the given html file matches the one
@@ -81,21 +81,21 @@ public class BistroDataTest
 				readTestFile(this.testFile));
 		Scraper.builder().add(source, this.bistro).build().scrape();
 
-		Path referenceFile = this.testFile.resolveSibling(
-				this.testFile.getFileName() + ".json"); //$NON-NLS-1$
+		String referenceFile = readTestFile(this.testFile + ".json"); //$NON-NLS-1$
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
-
 		Assert.assertEquals(
-				readTestFile(referenceFile),
+				referenceFile,
 				gson.toJson(this.bistro));
 	}
 
 	/** Reads a test file and fails of reading is not possible. */
-	private String readTestFile(Path path)
+	private String readTestFile(String path)
 	{
-		try
+		try (InputStream stream = getClass().getResourceAsStream("/" + path)) //$NON-NLS-1$
 		{
-			return new String(Files.readAllBytes(path));
+			return new BufferedReader(
+					new InputStreamReader(stream)).lines().collect(
+							Collectors.joining("\n")); //$NON-NLS-1$
 		}
 		catch (IOException e)
 		{
@@ -105,13 +105,14 @@ public class BistroDataTest
 	}
 
 	/**
-	 * @return The {@link Path} of the test data directory of the namespace of
-	 *         this class.
+	 * @return The test resources for the given bistro.
 	 */
-	private static Path getTestDataDirectory(Class<? extends IBistro> bistro)
+	private static Set<String> getTestFiles(
+			Class<? extends IBistro> bistro)
 	{
-		return Paths.get(
-				"test-data", //$NON-NLS-1$
-				bistro.getPackage().getName());
+		return new Reflections(
+				bistro,
+				new ResourcesScanner()).getResources(
+						HTML_FILE_PATTERN);
 	}
 }
