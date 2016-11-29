@@ -1,1 +1,2 @@
-include ':vendor:com.mpdeimos.webscraper'
+include 'com.mpdeimos.webscraper'
+project(':com.mpdeimos.webscraper').projectDir = file("vendor/com.mpdeimos.webscraper")

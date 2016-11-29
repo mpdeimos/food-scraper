@@ -5,7 +5,7 @@ repositories {
 }
 
 dependencies {
-	compile project(':vendor:com.mpdeimos.webscraper')
+	compile project(':com.mpdeimos.webscraper')
 	compile "org.apache.httpcomponents:httpclient:4.3.1"
 	
 	testCompile 'junit:junit:4.12'
