@@ -17,13 +17,16 @@ import java.util.Date;
 public class Menu implements IMenu
 {
 	/** @see #getDate() */
-	@Scrape(value = "a.anker", regex = ".*, (.*)",
+	@Scrape(
+			value = ".c-schedule__header > span > strong",
 			converter = DateFormatConverter.class)
 	@DateFormatConverter.Option(value = "dd.MM.yyyy")
 	public Date date;
 
 	/** @see #getDishes() */
-	@Scrape(value = "tr:has(.gericht)", converter = DeepScrapeConverter.class)
+	@Scrape(
+			value = ".c-schedule__list > .c-schedule__list-item",
+			converter = DeepScrapeConverter.class)
 	public Dish[] dishes;
 
 	/** {@inheritDoc} */

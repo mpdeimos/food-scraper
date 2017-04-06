@@ -13,11 +13,13 @@ import com.mpdeimos.webscraper.conversion.DefaultConverter.ScrapedEnum;
 public class Dish implements IDish
 {
 	/** @see #getName() */
-	@Scrape("td.beschreibung>span:first-child")
+	@Scrape(
+			value = ".c-schedule__description > .js-schedule-dish-description",
+			ownText = true)
 	public String name;
 
 	/** @see #getPrice() */
-	@Scrape("td.gericht")
+	@Scrape(".c-schedule__term > .stwm-artname")
 	public EPrice price;
 
 	/** {@inheritDoc} */

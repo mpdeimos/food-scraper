@@ -22,7 +22,9 @@ public class Bistro implements IBistro
 	public static String NAME = "Mensa"; //$NON-NLS-1$
 
 	/** @see #getMenu() */
-	@Scrape(value = "table.menu", converter = DeepScrapeConverter.class)
+	@Scrape(
+			value = ".tx-stwm-speiseplan > .c-schedule > .c-schedule__item",
+			converter = DeepScrapeConverter.class)
 	public Menu[] menus;
 
 	/** {@inheritDoc} */

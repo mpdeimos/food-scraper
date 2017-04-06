@@ -1,0 +1,431 @@
+{
+  "menus": [
+    {
+      "date": "Mar 27, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Kartoffelgulasch mit Paprika",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Hackfleischbällchen mit Champignonrahmsauce",
+          "price": "TAGESGERICHT_3"
+        },
+        {
+          "name": "Seelachsfilet (MSC) im Sesammantel mit Remouladensauce",
+          "price": "AKTIONSESSEN_3"
+        },
+        {
+          "name": "Gebackene Calamari-Ringe mit Remouladensauce",
+          "price": "AKTIONSESSEN_4"
+        }
+      ]
+    },
+    {
+      "date": "Mar 28, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Mexikanischer Reistopf mit Bohnen, Paprika und Mais",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Schweinebraten mit Biersauce",
+          "price": "TAGESGERICHT_4"
+        },
+        {
+          "name": "Massamann Curry (mit Hähnchen)",
+          "price": "AKTIONSESSEN_4"
+        }
+      ]
+    },
+    {
+      "date": "Mar 29, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Couscous mit mediterranem Gemüse",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Hackfleischbällchen mit Rahmsauce",
+          "price": "TAGESGERICHT_3"
+        },
+        {
+          "name": "Hackbraten mit Rahmsauce",
+          "price": "TAGESGERICHT_4"
+        },
+        {
+          "name": "Gefüllte Paprikaschote mit Tomatensauce",
+          "price": "AKTIONSESSEN_3"
+        }
+      ]
+    },
+    {
+      "date": "Mar 30, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Bulgur mit Zucchini und Tomaten",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Putenschnitzel auf Asia-Pfannengemüse",
+          "price": "AKTIONSESSEN_4"
+        },
+        {
+          "name": "Bio-Spaghetti mit Bio-Spinat-Sahnesauce",
+          "price": "BIOGERICHT_2"
+        }
+      ]
+    },
+    {
+      "date": "Mar 31, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Buntes Pfannengemüse",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
+          "price": "TAGESGERICHT_4"
+        },
+        {
+          "name": "Schweinebraten mit Biersauce, Biersauce",
+          "price": "TAGESGERICHT_4"
+        },
+        {
+          "name": "Rohrnudeln mit Vanillesauce",
+          "price": "TAGESGERICHT_4"
+        },
+        {
+          "name": "Seelachs (MSC) Rhodos, mit Tomaten und Oliven",
+          "price": "AKTIONSESSEN_6"
+        }
+      ]
+    },
+    {
+      "date": "Apr 3, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Kartoffeleintopf mit Majoran",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Gulasch vom Schwein",
+          "price": "TAGESGERICHT_3"
+        },
+        {
+          "name": "Germknödel gefüllt mit Pflaumenmus dazu Vanillesauce",
+          "price": "TAGESGERICHT_4"
+        },
+        {
+          "name": "Paniertes Hähnchenschnitzel",
+          "price": "TAGESGERICHT_4"
+        }
+      ]
+    },
+    {
+      "date": "Apr 4, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Buntes Gemüse in scharfer Kokosmilch",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Pasta-Gemüse-Auflauf mit Tomatensauce",
+          "price": "TAGESGERICHT_3"
+        },
+        {
+          "name": "Rinderroulade nach Hausfrauenart mit Senf-Gemüse-Sauce",
+          "price": "AKTIONSESSEN_6"
+        }
+      ]
+    },
+    {
+      "date": "Apr 5, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Pikanter Pilztopf mit Kartoffeln und Kraut",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Knöpflepfanne mit Putenfleisch und Gemüse",
+          "price": "TAGESGERICHT_3"
+        },
+        {
+          "name": "Rheinischer Sauerbraten (GQB)",
+          "price": "AKTIONSESSEN_6"
+        }
+      ]
+    },
+    {
+      "date": "Apr 6, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Gemüsepaella mit buntem Gemüse",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Schweinesteak Calabreser Art",
+          "price": "AKTIONSESSEN_4"
+        },
+        {
+          "name": "Ungarisches Bio-Kartoffelgulasch mit Bio-Paprika",
+          "price": "BIOGERICHT_2"
+        }
+      ]
+    },
+    {
+      "date": "Apr 7, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Zartweizen mit Tomaten, Zucchini und Auberginen",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Pfannkuchen mit Kirschfüllung dazu Vanillesauce",
+          "price": "TAGESGERICHT_3"
+        },
+        {
+          "name": "Seelachs (MSC) im Backteig mit Remouladensauce",
+          "price": "TAGESGERICHT_4"
+        }
+      ]
+    },
+    {
+      "date": "Apr 10, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Graupen-Gemüse-Pfanne",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Thailändische Frühlingsrolle mit Sweet Chilisauce",
+          "price": "TAGESGERICHT_2"
+        },
+        {
+          "name": "Paniertes Truthahnschnitzel mit Frühlingsdip",
+          "price": "TAGESGERICHT_4"
+        }
+      ]
+    },
+    {
+      "date": "Apr 11, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Blumenkohl-Kartoffel-Curry",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Tortellini (Käsefüllung) mit Käse-Sahne-Sauce",
+          "price": "TAGESGERICHT_3"
+        },
+        {
+          "name": "Lammbraten in Oliven-Rosmarin-Sauce",
+          "price": "AKTIONSESSEN_8"
+        }
+      ]
+    },
+    {
+      "date": "Apr 12, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Italienischer Bohneneintopf",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Kartoffeltaschen mit Kräuterfrischkäse",
+          "price": "TAGESGERICHT_3"
+        },
+        {
+          "name": "Esterhazygulasch vom Rind (GQB)",
+          "price": "AKTIONSESSEN_4"
+        }
+      ]
+    },
+    {
+      "date": "Apr 13, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Polentaschnitte an gedünstetem Blattspinat",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Gebackene Hähnchenbrust mit grüner Sauce",
+          "price": "AKTIONSESSEN_4"
+        },
+        {
+          "name": "Bio-Maultaschen mit Bio-Zwiebelsauce",
+          "price": "BIOGERICHT_4"
+        }
+      ]
+    },
+    {
+      "date": "Apr 18, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Indisches Linsencurry",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Blätterteigtasche gefüllt mit Spinat und Hirtenkäse",
+          "price": "TAGESGERICHT_4"
+        },
+        {
+          "name": "Pikante Chickenwings mit Barbecuesauce",
+          "price": "AKTIONSESSEN_3"
+        }
+      ]
+    },
+    {
+      "date": "Apr 19, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Orientalischer Bulgur mit Kichererbsen und Spinat",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Fränkische Bratwurst mit Sauerkraut",
+          "price": "TAGESGERICHT_2"
+        },
+        {
+          "name": "Gekochte Rinderbrust (GQB) mit Meerrettichsauce",
+          "price": "AKTIONSESSEN_6"
+        }
+      ]
+    },
+    {
+      "date": "Apr 20, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Reis mit asiatischem Gemüse und Koriander",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Putengulasch",
+          "price": "TAGESGERICHT_4"
+        },
+        {
+          "name": "Bio-Penne mit Bio-Soja-Bolognese-Sauce",
+          "price": "BIOGERICHT_2"
+        }
+      ]
+    },
+    {
+      "date": "Apr 21, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Grüner Erbseneintopf",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Dampfnudel mit Vanillesauce",
+          "price": "TAGESGERICHT_4"
+        },
+        {
+          "name": "Seelachsfilet (MSC) auf Blattspinat, Blattspinat",
+          "price": "AKTIONSESSEN_3"
+        }
+      ]
+    },
+    {
+      "date": "Apr 24, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Pikante Hirse mit Gemüse",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Hähnchenknusperfilet mit Mango-Chili-Dip",
+          "price": "TAGESGERICHT_4"
+        },
+        {
+          "name": "Rotes Curry vom Rind (GQB) mit Wokgemüse",
+          "price": "AKTIONSESSEN_5"
+        },
+        {
+          "name": "Dinkel-Pasta mit frischem Spargel und Rucolapesto",
+          "price": "AKTIONSESSEN_6"
+        }
+      ]
+    },
+    {
+      "date": "Apr 25, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Auberginencurry mit Kichererbsenreis",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Couscousbratling mit Paprika-Hummus (Kichererbsenmus)",
+          "price": "AKTIONSESSEN_3"
+        },
+        {
+          "name": "Pfannengyros vom Schwein mit Tsatsiki",
+          "price": "AKTIONSESSEN_4"
+        },
+        {
+          "name": "Pizza Slice mit Oliven , Schinken oder Salami",
+          "price": "AKTIONSESSEN_5"
+        }
+      ]
+    },
+    {
+      "date": "Apr 26, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Gemüsegulasch",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Spanferkelrollbraten mit Biersauce",
+          "price": "TAGESGERICHT_4"
+        },
+        {
+          "name": "Ofenkartoffel Mexican Style mit schwarzem Bohnenmus und Sour Cream",
+          "price": "AKTIONSESSEN_4"
+        },
+        {
+          "name": "Gebr. Chinanudeln mit Wokgemüse und Rindfleisch (GQB)",
+          "price": "AKTIONSESSEN_6"
+        }
+      ]
+    },
+    {
+      "date": "Apr 27, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Reistopf mit Chinagemüse",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Pasta di Manzo mit Rindfleischstreifen (GQB) in Balsamico",
+          "price": "TAGESGERICHT_4"
+        },
+        {
+          "name": "Grünes Hähnchen-Curry",
+          "price": "AKTIONSESSEN_7"
+        },
+        {
+          "name": "Dönerteller mit Putenfleisch, Pommes (GQB) und Salat",
+          "price": "AKTIONSESSEN_7"
+        }
+      ]
+    },
+    {
+      "date": "Apr 28, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Bauerneintopf",
+          "price": "TAGESGERICHT_1"
+        },
+        {
+          "name": "Pfannkuchen mit Apfelmus",
+          "price": "TAGESGERICHT_2"
+        },
+        {
+          "name": "Gedünsteter Kabeljau (MSC) auf Buchweizen-Rote-Beete-Risotto",
+          "price": "AKTIONSESSEN_9"
+        }
+      ]
+    }
+  ]
+}
