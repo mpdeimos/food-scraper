@@ -25,69 +25,57 @@ public class Menu implements IMenu
 	private static final String DATE_PATTERN_WITH_YEAR = DATE_PATTERN
 			+ "\\.\\d\\d\\d\\d"; //$NON-NLS-1$
 
-	/** @see #getDate() */
-	@Scrape(
-			lenient = true,
-			value = "td:first-child:matches(" + DATE_PATTERN + ")",
-			regex = ".*,.*(" + DATE_PATTERN + ").*",
-			converter = DateFormatConverter.class)
-	@DateFormatConverter.Option("dd.MM")
-	public Date dateWithoutYear;
+	/** The weekday of the dish. */
+	@Scrape(".accordion-title > span")
+	public String weekDay;
 
-	/** @see #getDate() */
+	/** The end date of the menu card. */
 	@Scrape(
 			lenient = true,
-			value = "td:first-child:matches(" + DATE_PATTERN_WITH_YEAR
-					+ ")",
-			regex = ".*,.*(" + DATE_PATTERN_WITH_YEAR + ").*",
-			converter = DateFormatConverter.class)
+			value = "h2",
+			regex = ".* bis (" + DATE_PATTERN_WITH_YEAR + ").*",
+			converter = DateFormatConverter.class,
+			root = RelativeElementSelector.class)
 	@DateFormatConverter.Option("dd.MM.yyyy")
-	public Date date;
+	@RelativeElementSelector.Option(parent = 1)
+	public Date endDate;
 
-	/** The year the page has been rendered. */
+	/** The dishes. */
 	@Scrape(
-			lenient = true,
-			value = ".footer-upper>p:first-child",
-			regex = "© (\\d{4}).*",
-			root = RelativeElementSelector.class)
-	@RelativeElementSelector.Option(parent = Integer.MAX_VALUE) // TODO (MP)
-																// Write root
-																// element
-																// selector
-	public int year;
-
-	/** The first dish of the menu. */
-	@Scrape(value = ":root", converter = DeepScrapeConverter.class)
-	public Dish firstDish;
-
-	/** The second dish of the menu. */
-	@Scrape(
-			value = ":root",
-			converter = DeepScrapeConverter.class,
-			root = RelativeElementSelector.class)
-	@RelativeElementSelector.Option(sibling = 1)
-	public Dish secondDish;
+			value = ".accordion-body p > strong:matches(.+)",
+			converter = DeepScrapeConverter.class)
+	public Dish[] dishes;
 
 	/** {@inheritDoc} */
 	@Override
 	public Date getDate()
 	{
-		if (this.date != null)
-		{
-			return this.date;
-		}
-
 		Calendar calendar = Calendar.getInstance();
-		calendar.setTime(this.dateWithoutYear);
-		calendar.set(Calendar.YEAR, this.year);
-
+		calendar.add(Calendar.DAY_OF_YEAR, getWeekdayOffset());
 		return calendar.getTime();
+	}
+
+	/** @returns The (negative) weekday offset from friday. */
+	private int getWeekdayOffset()
+	{
+		switch (this.weekDay.toLowerCase().substring(0, 2))
+		{
+		case "mo": //$NON-NLS-1$
+			return -4;
+		case "di": //$NON-NLS-1$
+			return -3;
+		case "mi": //$NON-NLS-1$
+			return -2;
+		case "do": //$NON-NLS-1$
+			return -1;
+		}
+		return 0;
 	}
 
 	/** {@inheritDoc} */
 	@Override
 	public Iterable<IDish> getDishes()
 	{
-		return Arrays.asList((IDish) this.firstDish, this.secondDish);
+		return Arrays.asList(this.dishes);
 	}
 }

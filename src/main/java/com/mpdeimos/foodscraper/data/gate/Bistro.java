@@ -18,7 +18,7 @@ public class Bistro implements IBistro
 	/**
 	 * @see #getUrl()
 	 */
-	public static final String URL = "http://www.gategarching.com/standort/bistro/wochenkarte/"; //$NON-NLS-1$
+	public static final String URL = "http://www.gategarching.com/bistro-wochenkarte/"; //$NON-NLS-1$
 
 	/**
 	 * @see #getName()
@@ -27,7 +27,7 @@ public class Bistro implements IBistro
 
 	/** The available menus. */
 	@Scrape(
-			value = "table>tbody>tr:has(td:first-child>strong):has(td:nth-child(2):not(:empty))",
+			value = ".the_content > .accordion-shortcode",
 			converter = DeepScrapeConverter.class)
 	public Menu[] menus;
 

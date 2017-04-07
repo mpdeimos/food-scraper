@@ -1,0 +1,84 @@
+{
+  "menus": [
+    {
+      "weekDay": "Montag",
+      "endDate": "Apr 7, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Putengeschnetzeltes",
+          "nameAddition": "mit frischen Champignons in Rahmsoße, dazu Spätzle und Preiselbeeren",
+          "price": 5.3
+        },
+        {
+          "name": "Gnocchi",
+          "nameAddition": "mit Gorgonzola-Spinatsoße",
+          "price": 4.3
+        }
+      ]
+    },
+    {
+      "weekDay": "Dienstag",
+      "endDate": "Apr 7, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Lendchen",
+          "nameAddition": "mit Kartoffelgratin",
+          "price": 5.3
+        },
+        {
+          "name": "Ofenkartoffel",
+          "nameAddition": "mit Sourcreme und Salat",
+          "price": 4.3
+        }
+      ]
+    },
+    {
+      "weekDay": "Mittwoch",
+      "endDate": "Apr 7, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Bauernfrikadelle",
+          "nameAddition": "mit Kartoffelgurkensalat",
+          "price": 5.3
+        },
+        {
+          "name": "Gebackener Hirtenkäse",
+          "nameAddition": "mit Tomaten-Paprika-Dip an Salat",
+          "price": 4.3
+        }
+      ]
+    },
+    {
+      "weekDay": "Donnerstag",
+      "endDate": "Apr 7, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Kalbsgulasch",
+          "nameAddition": "mit frischer Paprika und Spiralnudeln",
+          "price": 5.3
+        },
+        {
+          "name": "Allgäuer Kasespätzle",
+          "nameAddition": "mit Röstzwiebeln und Bergkäse",
+          "price": 4.3
+        }
+      ]
+    },
+    {
+      "weekDay": "Freitag",
+      "endDate": "Apr 7, 2017 12:00:00 AM",
+      "dishes": [
+        {
+          "name": "Pangasius-Filet mit Gemüsejulienne",
+          "nameAddition": "mit Petersilienkartoffeln mit Dillsahnesoße",
+          "price": 5.3
+        },
+        {
+          "name": "Kaiserschmarrn",
+          "nameAddition": "mit Apfelzimtkompott",
+          "price": 4.3
+        }
+      ]
+    }
+  ]
+}
