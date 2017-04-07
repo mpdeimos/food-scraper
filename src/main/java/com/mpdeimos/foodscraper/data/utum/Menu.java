@@ -32,7 +32,7 @@ public class Menu implements IMenu
 	 * @see #getDishes()
 	 */
 	@Scrape(
-			value = ".menu-items .menu-item:has(.menu-item-title:matches(.*\\p{IsAlphabetic}+.*):not(:matches(\\*Pichler\\s+Bio\\s*-\\s*Fleisch)):not(:matches(Tageskarte)))",
+			value = ".menu-items .menu-item:has(.menu-item-title:matches(.*\\p{IsAlphabetic}+.*):not(:matches(\\*\\s*Pichler\\s+Bio\\s*-?\\s*Fleisch)):not(:matches(Tageskarte)))",
 			converter = DeepScrapeConverter.class)
 	public Dish[] dishes;
 
