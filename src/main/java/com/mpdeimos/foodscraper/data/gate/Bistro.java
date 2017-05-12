@@ -18,16 +18,16 @@ public class Bistro implements IBistro
 	/**
 	 * @see #getUrl()
 	 */
-	public static final String URL = "http://www.gategarching.com/bistro-wochenkarte/"; //$NON-NLS-1$
+	public static final String URL = "https://gate-kitchen.de/speisekarte.html"; //$NON-NLS-1$
 
 	/**
 	 * @see #getName()
 	 */
-	public static String NAME = "Gate"; //$NON-NLS-1$
+	public static String NAME = "Gate Kitchen"; //$NON-NLS-1$
 
 	/** The available menus. */
 	@Scrape(
-			value = ".the_content > .accordion-shortcode",
+			value = ".viewport .copy > h3:matches(" + Menu.DATE_PATTERN + ")",
 			converter = DeepScrapeConverter.class)
 	public Menu[] menus;
 

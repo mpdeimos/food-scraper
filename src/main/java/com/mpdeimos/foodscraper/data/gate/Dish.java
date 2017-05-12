@@ -3,7 +3,6 @@ package com.mpdeimos.foodscraper.data.gate;
 import com.mpdeimos.foodscraper.data.IDish;
 import com.mpdeimos.webscraper.Scrape;
 import com.mpdeimos.webscraper.conversion.NumberFormatConverter;
-import com.mpdeimos.webscraper.selection.RelativeElementSelector;
 
 import org.jsoup.helper.StringUtil;
 
@@ -17,7 +16,7 @@ public class Dish implements IDish
 	/**
 	 * @see #getName()
 	 */
-	@Scrape(value = ":root")
+	@Scrape(value = "strong:first-child")
 	public String name;
 
 	/**
@@ -25,21 +24,18 @@ public class Dish implements IDish
 	 */
 	@Scrape(
 			value = ":root",
-			root = RelativeElementSelector.class)
-	@RelativeElementSelector.Option(parent = 1, sibling = 1)
+			ownText = true)
 	public String nameAddition;
 
 	/**
 	 * @see #getPrice()
 	 */
 	@Scrape(
-			value = ":root",
+			value = "strong:last-child",
 			lenient = true,
 			regex = ".*(\\d),(\\d\\d).*",
 			replace = "$1.$2",
-			converter = NumberFormatConverter.class,
-			root = RelativeElementSelector.class)
-	@RelativeElementSelector.Option(parent = 1, sibling = 2)
+			converter = NumberFormatConverter.class)
 	public double price = 0;
 
 	/** {@inheritDoc} */

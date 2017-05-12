@@ -1,0 +1,94 @@
+{
+  "menus": [
+    {
+      "date": "May 8, 2017 12:00:00 AM",
+      "dish1": {
+        "name": "PAD MEE",
+        "nameAddition": "Gebratene Thai-Nudeln mit Paprika, Zwiebeln, Frühlingszwiebeln, Eiern, Sesamöl und Sojasauce",
+        "price": 5.9
+      },
+      "dish2": {
+        "name": "MASSAMAN CURRY",
+        "nameAddition": "Hähnchenschenkel mit Kartoffeln, Zwiebeln, Kokosmilch und Duftreis",
+        "price": 6.9
+      },
+      "dish3": {
+        "name": "Penne all’arrabbiata",
+        "nameAddition": "Ital. Nudeln, Tomaten, Petersilie, Parmesan",
+        "price": 4.9
+      }
+    },
+    {
+      "date": "May 9, 2017 12:00:00 AM",
+      "dish1": {
+        "name": "SATAY-SPIESE",
+        "nameAddition": "Schweinefleisch mit gebratenen Duftreis und Erdnuss-sauce",
+        "price": 6.9
+      },
+      "dish2": {
+        "name": "Spaghetti Bolognese",
+        "nameAddition": "Ital. Nudeln mit Hackfleischsauce, Tomaten, Basilikum, Zwiebeln und Parmesan",
+        "price": 5.9
+      },
+      "dish3": {
+        "name": "KAO PAD KAI",
+        "nameAddition": "Gebratenen Duftreis mit Zwiebeln, Erbsen, Karotten, Eier, Limetten, Koriander und Gurken",
+        "price": 4.9
+      }
+    },
+    {
+      "date": "May 10, 2017 12:00:00 AM",
+      "dish1": {
+        "name": "Lasagne",
+        "nameAddition": "mit Hackfleisch, Tomaten, Zwiebeln, Karotten, Knoblauch mit Käse überbacken",
+        "price": 5.8
+      },
+      "dish2": {
+        "name": "PHAD WUNSEN",
+        "nameAddition": "Gebratene Glasnudeln mit Brokkoli, Spitzkohl, Frühlingszwiebeln, Sellerie und Sojasauce",
+        "price": 6.9
+      },
+      "dish3": {
+        "name": "Frühlingsrollen",
+        "nameAddition": "selbstgemacht mit Hähnchenfleisch, Sojabohnen, Morcheln, Glasnudeln, Karotten, Kohl und Süß Sauer Sauce",
+        "price": 4.8
+      }
+    },
+    {
+      "date": "May 11, 2017 12:00:00 AM",
+      "dish1": {
+        "name": "Knusper-Schnitzel",
+        "nameAddition": "Schweinefleisch in knuspirger Panade mit selbstgemachten Kartoffelsalat",
+        "price": 6.8
+      },
+      "dish2": {
+        "name": "PAD SAHIEW",
+        "nameAddition": "Gebratene breite Reisnudeln mit Eier und Brokkoli",
+        "price": 4.8
+      },
+      "dish3": {
+        "name": "MOO GROB",
+        "nameAddition": "Knuspriger Schweinebauch mit Brokkoli, Kohl, Knoblauch, Sojasauce und Duftreis",
+        "price": 5.8
+      }
+    },
+    {
+      "date": "May 12, 2017 12:00:00 AM",
+      "dish1": {
+        "name": "PED PIAW WHAN",
+        "nameAddition": "Knusprige Ente mit Brokkoli, Zucchini, Zwiebeln, Ananas, Tomaten, Gurken in süß-sauer Sauce",
+        "price": 7.9
+      },
+      "dish2": {
+        "name": "GAENG PHAK",
+        "nameAddition": "Brokkoli, Spitzkohl, Zuccini, Karotten mit Duftreis und rotem Curry",
+        "price": 5.9
+      },
+      "dish3": {
+        "name": "Bayerischer Leberkäse",
+        "nameAddition": "frisch aus dem Ofen mit Händlmaier Senf und Brezn",
+        "price": 4.8
+      }
+    }
+  ]
+}
